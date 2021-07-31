@@ -1,5 +1,5 @@
 {
-  "name": "testapp",
+  "name": "mockServiceWorker_try1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nsw": "^0.1.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
